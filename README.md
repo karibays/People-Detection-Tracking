@@ -51,12 +51,11 @@ Press "q" to quit.
 ## PROJECT STRUCTURE
 
 people-tracking-demo/
-    capture_object.py   - Capture class that saves person crops
-    process_video.py    - Processes a video and saves annotated result
-    live_webcam.py      - Optional live webcam demo
-    runs/               - YOLO trained weights
-    results/            - Output (created automatically)
-    README.md
+- capture_object.py   - Capture class that saves person crops
+- process_video.py    - Processes a video and saves annotated result
+- live_webcam.py      - Optional live webcam demo
+- results/            - Output (created automatically)
+- README.md
 
 ---
 
