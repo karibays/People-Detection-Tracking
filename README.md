@@ -60,7 +60,7 @@ people-tracking-demo/
 
 ---
 
-##EXAMPLE RESULTS
+## EXAMPLE RESULTS
 
 Cropped person images:
     results/run_1/objects/object_3.jpg
