@@ -2,7 +2,9 @@ PEOPLE DETECTION & TRACKING
 
 This is a small demonstration project showing real-time people detection, tracking, and basic analysis using Ultralytics YOLO.
 
-Features:
+---
+
+## Features:
 - Detects people in a video or webcam stream
 - Tracks each person with a unique ID using ByteTrack
 - Saves cropped images of detected people
@@ -12,7 +14,9 @@ Features:
       objects/    # saved cropped person images
       video/      # annotated output video
 
-INSTALLATION
+---
+
+## INSTALLATION
 
 git clone https://github.com/your-username/people-tracking-demo.git
 cd people-tracking-demo
@@ -23,7 +27,9 @@ You need:
 - OpenCV
 - Ultralytics
 
-USAGE
+---
+
+## USAGE
 
 1) Process a video file
 
@@ -40,7 +46,9 @@ python live_webcam.py
 
 Press "q" to quit.
 
-PROJECT STRUCTURE
+---
+
+## PROJECT STRUCTURE
 
 people-tracking-demo/
     capture_object.py   - Capture class that saves person crops
@@ -50,7 +58,9 @@ people-tracking-demo/
     results/            - Output (created automatically)
     README.md
 
-EXAMPLE RESULTS
+---
+
+##EXAMPLE RESULTS
 
 Cropped person images:
     results/run_1/objects/object_3.jpg
@@ -59,7 +69,9 @@ Cropped person images:
 Annotated video:
     results/run_1/video/test2.mp4
 
-FUTURE IMPROVEMENTS
+---
+
+## FUTURE IMPROVEMENTS
 
 - Pick the best frame for each person (sharpest/largest bbox)
 - Add CSV/JSON export of tracked IDs
@@ -68,6 +80,8 @@ FUTURE IMPROVEMENTS
 - Person age prediction
 - Person nation prediction
 
-LICENSE
+---
+
+## LICENSE
 
 MIT – feel free to use and modify.
