@@ -18,7 +18,7 @@ This is a small demonstration project showing real-time people detection, tracki
 
 ## INSTALLATION
 
-git clone https://github.com/your-username/people-tracking-demo.git
+https://github.com/karibays/People-Detection-Tracking.git
 cd people-tracking-demo
 pip install -r requirements.txt
 
